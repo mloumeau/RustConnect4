@@ -69,7 +69,7 @@ fn drop_in_available_slot(mut game_array: & mut [[char;6];8], col: usize, symbol
         }
 
         //Else, place the chip, show the result, check if there's a winner.
-        if game_array[col][i-1] == ' '{
+        else if game_array[col][i-1] == ' '{
             game_array[col][i-1] = symbol;
             display_board(& mut game_array);
             
