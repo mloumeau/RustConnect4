@@ -21,7 +21,6 @@ std::io:stdin() for getting input from the user, and std::process:exit() to kill
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
 * [Install Rust](https://www.rust-lang.org/tools/install)
 * [Getting User Input (Tricky)](https://stackoverflow.com/questions/30355185/how-to-read-an-integer-input-from-the-user-in-rust-1-0)
 
