@@ -17,7 +17,7 @@ and not so challenging that it would be eating up a bunch of time.
 For this project, I needed to install Rust, the Rust extension in Visual Studio Code, and create a rust project through the command prompt.
 
 For this project, I didn't need to import lots of libraries. The only library I needed was std. This allowed for me to use
-std::io:stdin() for getting input from the user, and std::process:exit() to kill the program when necessary.
+std::io:stdin() for getting input from the user, and std::process::exit() to kill the program when necessary.
 
 # Useful Websites
 
