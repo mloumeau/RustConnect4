@@ -28,9 +28,13 @@ fn display_board(game_array: & mut [[char;6];8]) {
 
             i = i + 1; 
         }
-
+        if j == 5{
+            println!("\n===================================================");
+        }
+        else{
         //After each row, separate with ---
         println!("\n---------------------------------------------------");
+        }
         j = j + 1;
     }
 
